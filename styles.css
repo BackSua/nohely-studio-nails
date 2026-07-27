@@ -229,8 +229,9 @@ footer { padding: 34px 0; background: #21140f; color: #d9ccc5; }
   font-size: 1.7rem;
   box-shadow: 0 12px 28px rgba(0,0,0,.22);
 }
-.reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
-.reveal.visible { opacity: 1; transform: none; }
+.reveal { opacity: 1; transform: none; }
+.js .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+.js .reveal.visible { opacity: 1; transform: none; }
 
 @media (max-width: 920px) {
   .menu-toggle { display: block; }
